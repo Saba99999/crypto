@@ -1,0 +1,41 @@
+#root {
+  min-width: 100%;
+  text-align: center;
+}
+
+.app{
+  background: linear-gradient(#0b004e, #1d152f, #002834);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: 100%;
+}
+.app > .main-content {
+  flex: 1; 
+}
+
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  background-color: #023645;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+@media (max-width:451px) {
+  .footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .app{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar{
+    width: 100%;
+  }
+}

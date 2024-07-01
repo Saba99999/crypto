@@ -1,0 +1,14 @@
+@media (max-width:550px) {
+    .coming-soon-image{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width:420px) {
+    .coming-soon-image{
+        height: 300px;
+        width: 300px;
+    }
+    
+}

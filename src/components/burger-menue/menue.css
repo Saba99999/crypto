@@ -1,0 +1,12 @@
+.menue-conteiner{
+    max-width: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.menue-conteiner li{
+    margin-top: 5px;
+}
+
+

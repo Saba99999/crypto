@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    border-bottom: solid #3c3c3c 2px;
+}
+
+.logo{
+    height: 40px;
+}
+
+.menue-icon{
+    height: 40px;
+    display: none;
+}
+
+.navbar ul{
+    color: white;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: max(1vw,12px);
+}
+
+.navbar .nav-right select{
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: solid white 1px;
+    background: transparent;
+    color: white;
+}
+.navbar .nav-right option{
+    background-color: #09005c;
+    color: white;
+}
+
+.navbar .nav-right button{
+    padding: 5px 8px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.logo-menue-div{
+    display: flex;
+    gap: 20px;
+    
+}
+
+@media (max-width:580px) {
+    .navbar ul{
+        display: none;
+    }
+    .menue-icon{
+        display: block;
+    }   
+}
